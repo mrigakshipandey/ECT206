@@ -1,8 +1,7 @@
 #include<stdio.h>
-#include<conio.h>
 #define N 100
 
-main()
+int main()
 {
       int i=0, flag=0,n,j,t;
       int a[N];
@@ -38,5 +37,5 @@ main()
       {
                    printf("\n%d",a[j]);
       }
-      getch();
+      return 0;
 }
